@@ -1,0 +1,10 @@
+{
+    "curly": true,
+    "eqeqeq": true,
+    "noempty": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "browser": true,
+    "jquery": true
+}

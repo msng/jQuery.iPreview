@@ -1,0 +1,206 @@
+/* Layout */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+html, body, #container {
+    height: 100%;
+}
+
+body > #container {
+    height: auto;
+    min-height: 100%;
+}
+
+#container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    padding: 70px 10px 50px;
+}
+
+/* Elements */
+header {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    line-height: 1;
+    background-color: #333;
+}
+
+header a {
+    display: block;
+    padding: 10px 0;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+
+footer {
+    position: relative;
+    margin-top: -32px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 32px;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    color: #FFF;
+}
+
+footer p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+footer a {
+    color: #99F;
+}
+
+p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+ul {
+    padding-left: 20px;
+    padding-bottom: 14px;
+}
+
+ul ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+input {
+    font-size: 1em;
+}
+
+a, .link {
+    color: #66F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+del {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #999;
+}
+
+img {
+    max-width: 480px;
+}
+
+.url {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.inputDate {
+    width: 10em;
+}
+
+#openFormat {
+    text-align: center;
+}
+
+
+/* Site Specific styles follow */
+input {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 5px;
+    text-align: left;
+}
+
+#gallery {
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    line-height: 1;
+}
+
+#placeholder {
+    color: #999;
+    padding: 0;
+}
+
+#menu {
+    padding: 0 0 15px 0;
+    list-style: none;
+    text-align: right;
+}
+
+#menu li {
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 3px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    line-height: 1;
+}
+
+#menu li:first-child {
+    margin: 0;
+}
+
+#menu li a, #menu li span {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #66F;
+    color: #FFFFFF;
+}
+
+#menu li.current a {
+    background-color: #999;
+    color: #FFF;
+}
+
+.code {
+    padding-top: 30px;
+}

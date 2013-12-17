@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery iPreview Sample 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div id="container">
+    <header><a href="./">jQuery.iPreview()</a></header>
+    <div id="main">
+        <ul id="menu">
+            <li class="current"><a href="./index.html">1</a></li>
+            <li><a href="./more-inputs.html">2</a></li>
+            <li><a href="./advanced.html">3</a></li>
+        </ul>
+        <input type="file" accept="image/*">
+
+        <div class="code">
+            <script src="https://gist.github.com/msng/2b45cec9f670e11808c2.js?file=simple.html"></script>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Fork me on <a href="https://github.com/msng">GitHub</a></p>
+</footer>
+
+<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="../src/jquery.iPreview.js"></script>
+<script>
+    $('input[type=file]').iPreview();
+</script>
+</body>
+</html>

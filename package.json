@@ -1,0 +1,19 @@
+{
+  "name": "jquery.iPreview",
+  "version": "1.0.0",
+  "description": "A jQuery plugin that instantly shows previews of images selected with HTML input element",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:msng/jQuery.iPreview.git"
+  },
+  "author": "Masunaga Ray",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}
