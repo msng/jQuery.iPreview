@@ -6,4 +6,5 @@ A jQuery plugin that instantly shows previews of images selected with HTML input
 Usage
 -----
 
-Comes later. Please see examples.
+Comes later. Please see [examples](http://static.msng.info/jQuery.iPreview/example/).
+
